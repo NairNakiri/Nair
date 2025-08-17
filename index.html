@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        span {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .kibu {
+            background-color: rgb(6, 169, 164);
+        }
+
+        body {
+            background-color: rgb(15, 16, 16);
+            font-size:19px;
+        }
+
+        .kini {
+            background-color: rgb(168, 98, 0);
+        }
+
+        .table-responsive {
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand bg-opacity-50 bg-primary">
+        <div class="container-fluid">
+            <a class="ms-3 text-white" href="#"><i class="fas fa-music"> <span class="ms-2"> TUGAS </span></i></a>
+            <div class="navbar-nav">
+                <a class="nav-link text-white" href="#video">Video</a>
+                <a class="nav-link text-white" href="#kontak">Kontak</a>
+                <a class="nav-link text-white" href="#galeri">Galery</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container d-flex align-items-center flex-column mt-5">
+        <img src="adrian.webp" class="img-fluid rounded-circle border border-dark border-3 w-50">
+        <P class="mt-4 text-white text-opacity-50">Bayangan Dibalik Cahaya Rembulan</P>
+    </div>
+    <div class="d-flex justify-content-center">
+        <a href="https://spotify.com" class="text-white me-3"><i class="fab fa-spotify fa-2x"></i></a>
+        <a href="https://instagram.com" class="text-white me-3"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://youtube.com" class="text-white me-3"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="https://tiktok.com" class="text-white"><i class="fab fa-tiktok fa-2x"></i></a>
+    </div>
+    <div class="d-flex justify-content-center mt-4">
+        <button class="btn btn-dark w-sm-auto ">Dengarkan Music</button>
+    </div>
+    <div class="container d-flex flex-column rounded text-center text-white mt-4 p-2 bg-primary bg-opacity-50">
+        <h3 class="text-white mt-2">Tentang Saya</h3>
+        <hr class="w-75 mx-auto mt-1">
+        <p class="w-75 mx-auto">
+            Hai, Nair Nakiri nickname gw, nama gw Muhammad Adrian Maulana, umur gw 17 otw 18, gw sebagai pelajaran yg juga
+            sastrawan, pembaca novel, suka dengerin musik dan gw suka main game dan f1, gw juga suka anime. gw introvert, tapi gw
+            berusaha terus jadi lebih baik. simple aja, gw pengen kaya Carlos Sainz, ego gw segede Max Verstappen, tapi gw ga
+            gegabah dan tetep tenang kaya Lewis Hamilton.
+        </p>
+    </div>
+    <h3 class="text-white text-center mt-5">Daftar Lagu</h3>
+    <hr class="w-75 text-white mx-auto mt-11">
+    <div
+        class="w-75 mx-auto d-flex justify-content-center flex-column align-items-center rounded-3 bg-opacity-50 bg-primary p-3">
+        <div class="progress w-100 mb-3" id="lagu-section">
+            <div class="progress-bar bg-primary"></div>
+        </div>
+        <div class="d-flex gap-3 justify-content-center">
+            <button class="rounded-circle border-0 p-2 px-3">
+                <i class="bi bi-skip-backward-fill fs-4"></i>
+            </button>
+            <button class="rounded-circle btn btn-primary border-0 p-2 px-3">
+                <i class="bi bi-play-fill fs-4"></i>
+            </button>
+            <button class="rounded-circle border-0 p-2 px-3">
+                <i class="bi bi-skip-forward-fill fs-4"></i>
+            </button>
+        </div>
+    </div>
+    <div class="w-100 mx-auto table-responsive mt-5 p-3 rounded-3">
+        <table class="table table-striped table-primary table-bordered text-center">
+            <thead class="table-primary">
+                <tr>
+                    <th>No</th>
+                    <th>Judul Lagu</th>
+                    <th>Artis</th>
+                    <th>Durasi</th>
+                    <th>Tahun</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Telephones</td>
+                    <td>Vacations</td>
+                    <td>3:28</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Any Other Way</td>
+                    <td>Particle House, Le June</td>
+                    <td>2:55</td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Why (Tell Me)</td>
+                    <td>SRA, Dasloe</td>
+                    <td>3:10</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>I Wish You Were Mine</td>
+                    <td>Loving Caliber</td>
+                    <td>3:40</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>BEAUTY IN DEATH</td>
+                    <td>Chase Atlantic</td>
+                    <td>4:05</td>
+                    <td>2021</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Here With Me</td>
+                    <td>d4vd</td>
+                    <td>3:50</td>
+                    <td>2022</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <h3 id="galeri" class="text-white text-center mt-5">Galery</h3>
+    <hr class="text-white">
+    <div class="container mt-5">
+        <div class="row row-cols-1 row-cols-md-3 g-5">
+            <div class="col">
+                <div class="card bg-primary bg-opacity-50 text-white">
+                    <img src="https://i.pinimg.com/736x/86/7c/bf/867cbf044b4a3e1edaba841deaaeb07c.jpg" class="rounded"
+                        alt="rose">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Rose</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-primary bg-opacity-50 text-white">
+                    <img src="https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da848f316ed3017281dc39965a15"
+                        class="rounded" alt="Let it happen">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Bilie Elish</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-primary bg-opacity-50 text-white">
+                    <img src="https://i.pinimg.com/736x/e3/52/c9/e352c90c8d8cb07c2161e815e321763a.jpg" class="rounded"
+                        alt="carlos">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Carlos Sainz</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-primary bg-opacity-50 text-white">
+                    <img src="https://i.pinimg.com/736x/d7/c2/0d/d7c20d73be8ff00e9a382a75aadb490a.jpg" class="rounded"
+                        alt="max">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Max Verstappen</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-primary bg-opacity-50 text-white">
+                    <img src="https://i.pinimg.com/1200x/af/c9/90/afc990caf86f8e3f42f166c1acbfb409.jpg" class="rounded"
+                        alt="kobo">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Kobo Kanaeru</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-primary bg-opacity-50 text-white">
+                    <img src="https://i.pinimg.com/736x/fd/09/ef/fd09ef48c1aeaedbdcb41b1adfed32db.jpg" class="rounded"
+                        alt="Light Yagami">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Light Yagami</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3 id="video" class="text-white text-center mt-5">Video</h3>
+    <hr class="text-white">
+    <div class="container mt-4">
+        <div class="row g-2 text-center row-cols-1 row-cols-md-2 mt-5">
+            <div class="col">
+                <div class="card bg-primary bg-opacity-50 text-white">
+                    <iframe class="w-100" height="250"
+                        src="https://www.youtube.com/embed/CtOYFiJcdoI?si=7gfhnRBSU3fMKW6v"></iframe>
+                    <div class="card-body">
+                        <h5>FUJIWARA CHIKA AMV EDIT</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-primary bg-opacity-50 text-white">
+                    <iframe class="w-100" height="250"
+                        src="https://www.youtube.com/embed/kPBaEojBp2Y?si=bgzmxVRvbv3bqVCM"></iframe>
+                    <div class="card-body">
+                        <h5>F1 ROCK BODY</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-primary bg-opacity-50 text-white">
+                    <iframe class="w-100" height="250"
+                        src="https://www.youtube.com/embed/zB63j_g2pAg?si=3-R28GMDvBE9z0VR"></iframe>
+                    <div class="card-body">
+                        <h5>MERCEDES-AMG F1 W11 EQ PERFORMANCE (2020) EDIT</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-primary bg-opacity-50 text-white">
+                    <iframe class="w-100" height="250"
+                        src="https://www.youtube.com/embed/CzAdYE4uzSA?si=lV22_49H8HZNinGS"></iframe>
+                    <div class="card-body">
+                        <h5>Demon Slayer Infinity Castle 🔥 - Amor Na Praia [Edit/AMV] 4K! </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 id="kontak" class="text-white text-center mt-5">Kontak</h3>
+        <hr class="text-white">
+        <div class="container mt-4">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col">
+                    <div class="card bg-primary h-100 card-body bg-opacity-50 text-white text-center">
+                        <h4>Hubungi Saya</h4>
+                        <hr>
+                        <div class="text-start d-flex flex-column align-items-start mt-1 gap-2">
+                            <h5><i class="fas fa-phone me-2"></i> 088888888</h5>
+                            <h5><i class="fas fa-envelope me-2"></i> kikikikikiki@gmail.com</h5>
+                            <h5><i class="fa fa-map-marker-alt me-2"></i> Semarang, Indonesia</h5>
+                            <div class="mt-2 d-flex gap-3">
+                                <a href="#" class="text-white" title="GitHub"><i class="fab fa-github fa-lg"></i></a>
+                                <a href="#" class="text-white" title="Instagram"><i
+                                        class="fab fa-instagram fa-lg"></i></a>
+                                <a href="#" class="text-white" title="Discord"><i class="fab fa-discord fa-lg"></i></a>
+                                <a href="#" class="text-white" title="TikTok"><i class="fab fa-tiktok fa-lg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mt-2 mt-md-0">
+                    <div class="card bg-primary bg-opacity-50 card-body text-white text-center">
+                        <h4>Penyanyi Favorit</h4>
+                        <hr>
+                        <div class="kibu p-2 text-center mt-1 text-white rounded">
+                            <h5 class="mt-1">Bilie Elish </h5>
+                        </div>
+                        <div class="p-2 kini text-center mt-2 text-white rounded">
+                            <h5 class="mt-1">Taylor Swift </h5>
+                        </div>
+                        <div class="kibi bg-danger p-2 text-center mt-2 text-white rounded">
+                            <h5 class="mt-1">Chase Atlantic </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5">
+        </div>
+</body>
+
+</html>
